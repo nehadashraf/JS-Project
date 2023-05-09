@@ -1,0 +1,399 @@
+/* *{
+  font-family: 'Righteous', cursive;
+} */
+
+body {
+  margin: 0;
+  padding: 0;
+}
+
+
+.navbar {
+  height: 90px;
+}
+
+.navbar-nav .nav-link {
+  font-size:15px;
+  font-weight: 500;
+  margin-left: 15px;
+}
+.sign {
+    background-image: linear-gradient(to right , #72aef6 , #3472c2);
+    height: 45px;
+    color: white;
+    padding: 15px;
+    border-radius: 30px;
+    margin-right: 20px;
+    margin-top: 30px;
+    width: 190px;
+    text-align: center;
+    cursor: pointer; 
+    font-family: 'Righteous', cursive;
+}
+
+.navbar .fas {
+  margin-left: 10px;
+  margin-top: 20px;
+  font-size: 25px;
+}
+.darkicon{
+  background-color: black;
+  color:white;
+
+}
+
+.navbar-toggler {
+  background-color: #272c32;
+}
+.collapse{
+  margin-top: 20px;
+}
+.sign a:hover {
+  color: black;
+  background-color: white;
+}
+
+header {
+  background-image: url("../../images/ii.webp");
+  height: 700px;
+  background-repeat: no-repeat;
+  background-size: cover;
+  display: flex;
+  flex: 1;
+  flex-direction: column;
+  justify-content: center;
+  align-content: center;
+  align-items: center;
+  color: white;
+}
+
+h1 {
+  padding-top: 50px;
+  font-style: italic;
+  font-family: 'Times New Roman', Times, serif;
+  color: #eaedf1;
+  font-size: 70px;
+  font-weight: bold;
+  padding: 0;
+  margin: 0;
+}
+
+.tooth {
+  width: 300px;
+  height: 300px;
+  margin-left: 10px;
+
+}
+
+#rent {
+  font-size: 30x;
+  margin-top: 20px;
+  width: 70%;
+  text-align: center;
+  height: 0px;
+  overflow: hidden;
+  color: white;
+  transition: .6s all;
+}
+
+
+.read {
+  font-size: 15px;
+  font-weight: bold;
+  width: 190px;
+  cursor: pointer;
+  padding: 20px 30px;
+  background-image: linear-gradient(to right, #72aef6, #3472c2);
+  transition: 0.4s;
+  margin-top: 20px;
+  border-radius: 35px;
+
+}
+
+.read:active {
+  background-image: linear-gradient(to right, #3d88e4, #093165);
+
+}
+
+.read:hover {
+  color: aliceblue;
+  background-image: linear-gradient(to right, #272c32, #0e376d);
+}
+
+.types h1 {
+  background-image: linear-gradient(to right, #c2d5e8, #153053);
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+  margin-top: 80px;
+  text-align: center;
+  margin-bottom: 20px;
+}
+
+.types p {
+  margin: auto;
+  margin-bottom: 40px;
+  width: 1000px;
+  text-align: center;
+}
+
+
+.work {
+  display: flex;
+  justify-content: center;
+
+}
+
+.work img {
+  width: 300px;
+  height: 250px;
+  margin-left: 20px;
+
+}
+
+.types h3 {
+  background-image: linear-gradient(to right, #a7c1e0, #6589b7);
+  padding: 20px;
+  padding-left: 150px;
+  font-size: 30px;
+}
+
+.column {
+  width: 550px;
+  height: 600px;
+  padding: 30px;
+  text-align: justify;
+  background-color: white;
+  float: right;
+  margin-bottom: 80px;
+  margin-top: 70px;
+  margin-left: 300px;
+}
+
+.Choose {
+  background-image: linear-gradient(to right, #6c809d, #2b5489);
+  height: 700px;
+  background-repeat: no-repeat;
+  background-size: cover;
+  margin-top: 30px;
+  display: flex;
+}
+
+.Choose #image2 {
+  width: 600px;
+  height: 600px;
+}
+
+h4 {
+  font-size: 35px;
+  text-align: center;
+
+}
+
+.big {
+  width: 500px;
+  height: 80px;
+  margin-bottom: 25px;
+  font-size: 25px;
+  color: gray;
+}
+
+.find {
+  cursor: pointer;
+  text-align: center;
+  padding: 20px 50px 20px 50px;
+  margin-left: 160px;
+  font-size: 25px;
+  color: white;
+  background-color: black;
+
+}
+
+.find:hover {
+  background-image: linear-gradient(to right, #72aef6, #3472c2);
+  border-radius: 20px;
+  color: black;
+
+}
+
+h2 {
+  padding: 30px;
+  text-align: center;
+  font-style: inherit;
+  font-size: 80px;
+  background-image: linear-gradient(to right, #29537c, #071d3b);
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+}
+
+.carousel-caption h5 {
+  font-size: 25px;
+  font-weight: 800;
+  background-image: linear-gradient(to right, #9fa1a3, #ffffff);
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+}
+
+.p1 {
+  padding-left: 200px;
+  font-size: 30px;
+  padding-right: 150px;
+  text-align: center;
+
+}
+
+.num {
+
+  background: #000;
+  border: #3472c2 solid 5px;
+  color: white;
+  height: 80px;
+  width: 90px;
+  border-radius: 50%;
+  display: inline-block;
+  text-align: center;
+  margin-left: 700px;
+  font-size: 25px;
+  padding-top: 30px;
+}
+
+.carousel {
+  width: 40%;
+  margin: auto;
+  margin-bottom: 50px;
+}
+
+.d-block {
+  height: 80vh;
+  filter: brightness(.6);
+}
+
+.carousel h1 {
+  background-image: linear-gradient(to right, #29537c, #071d3b);
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+  font-size: 60px;
+  text-align: center;
+  margin-bottom: 30px;
+  margin-top: 30px;
+
+}
+
+
+/*contact us*/
+
+.contact-us {
+  font-family: Georgia, serif;
+  background-color:transparent;
+  border-radius: 10px;
+  width: 40%;
+  margin-left: 55%;
+  height: 25%;
+  text-align: center;
+  margin-bottom: 35px;
+}
+
+.contact-us form {
+  display: flex;
+  flex-direction: column;
+  width: 100%;
+  align-items: center;
+  font-size: 25px;
+  font-weight: 600;
+  color: #0a2446;
+
+}
+
+.contact-us form .btn {
+  border-width: 3px;
+  height: 40px;
+  border-style: hidden;
+  border-radius: 30px;
+  width: 300px;
+  text-align: center;
+  cursor: pointer;
+  background-image: linear-gradient(to right, #e4ebf1, #020a15);
+}
+
+.contact-us input,
+.contact-us textarea,
+.contact-us .btn {
+  font-size: 22px;
+  background-color: #ffffff;
+}
+
+.contact-us label,
+.contact-us input,
+.contact-us textarea {
+  margin-bottom: 15px;
+}
+
+.contact-us input,
+.contact-us textarea {
+  width: 60%;
+  border-radius: 20px;
+  border: none;
+  outline: none;
+  padding: 7.5px 10px;
+
+}
+#button {
+  height: 45px;
+  margin-top: 15px;
+  width: 150px;
+  text-align: center;
+  padding-top: 11px;
+  cursor: pointer;
+  font-family: 'Righteous', cursive;
+}
+.contact-us input:hover,
+.contact-us textarea:hover,
+.contact-us .btn:hover {
+  border-color: #123157;
+  border-bottom: 3px;
+  border-style: inset;
+
+}
+
+.cnt {
+  text-align: center;
+  color: rgb(32, 29, 29);
+}
+
+.cnt h1 {
+  margin: 0px;
+  padding: 0;
+  color: rgb(3, 26, 59);
+}
+
+.cnt h2 {
+  font-size: 30px;
+  color: white;
+  margin: 0px;
+  padding: 0;
+}
+
+
+
+
+
+
+footer {
+  background-image: linear-gradient(to right, #4072a4, #103366);
+  padding: 0px;
+  width: 100%;
+  margin-top: 0;
+  padding-top: 8px;
+  display: flex;
+
+}
+footer img{
+  width: 50px;
+  height: 50px;
+  margin-left: 10px;
+}
+footer p {
+  text-align: right;
+  color: white;
+  margin-left: 70%;
+  font-weight: 500;
+}

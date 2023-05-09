@@ -1,0 +1,53 @@
+body {
+    background: url("../../images/dentist-medical-tools_93675-77413.webp") no-repeat;
+    background-size: cover;
+}
+
+.book {
+    width: 350px;
+    top: 50%;
+    left: 70%;
+    transform: translate(-50%, -50%);
+    position: absolute;
+    color: white;
+}
+
+.book p {
+    font-size: 20px;
+    margin: 15px;
+    color: black;
+    text-transform: uppercase;
+}
+
+.book input {
+    font-size: 16px;
+    width: 100%;
+    padding: 15px 10px;
+    border: 0;
+    outline: none;
+    border-radius: 5px;
+}
+
+.btn {
+    border: none;
+    color: black;
+    padding: 14px 28px;
+    font-size: 16px;
+    cursor: pointer;
+    border-radius: 20px;
+    margin-top: 30px;
+    margin-left: 110px;
+    margin-bottom: 20px;
+
+}
+
+.btn:hover {
+    background-color: rgb(35, 189, 224);
+}
+
+.book h1 {
+    color: rgb(35, 189, 224);
+    margin-left: 100px;
+    font-weight: bolder;
+    font-size: 35px;
+}

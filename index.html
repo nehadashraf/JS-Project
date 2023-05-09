@@ -1,0 +1,358 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <!--bootstrap css-->
+    <link rel="stylesheet" href="./assets/bootstrap/bootstrap.min.css" />
+    <!--font awsomn css-->
+    <link rel="stylesheet" href="./assets/fonts/all.min.css" />
+    <!-- wow animate css-->
+    <link rel="stylesheet" href="./assets/wow/animate.css" />
+    <link rel="stylesheet" href="./assets/wow/animate.min.css" />
+    <!--owl css-->
+    <link rel="stylesheet" href="./assets/owl/owl.carousel.min.css" />
+    <link rel="stylesheet" href="./assets/owl/owl.theme.default.min.css" />
+    <!-- Add the slick-theme.css if you want default styling -->
+    <link rel="stylesheet" type="text/css" href="//cdn.jsdelivr.net/npm/slick-carousel@1.8.1/slick/slick.css" />
+    <!-- Add the slick-theme.css if you want default styling -->
+    <link rel="stylesheet" type="text/css" href="//cdn.jsdelivr.net/npm/slick-carousel@1.8.1/slick/slick-theme.css" />
+    <!-- my file css-->
+    <link rel="stylesheet" href="./assets/css/project.css" />
+    <link rel="stylesheet" href="./assets/css/sign.css" />
+    <link rel="stylesheet" href="./assets/css/says.css" />
+    <script src="https://kit.fontawesome.com/fea848138b.js" crossorigin="anonymous"></script>
+
+</head>
+
+<body>
+    <nav class="navbar navbar-expand-lg">
+        <i class="fas fa-yin-yang" onclick="modeicon()"></i>
+        <a class="navbar-brand" href="#"><img src="./images/logo.png" width="220px" height="130px" /> 
+        </a>
+
+        <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent"
+            aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+            <span class="navbar-toggler-icon"></span>
+        </button>
+
+        <div class="collapse navbar-collapse" id="navbarSupportedContent">
+            <ul class="navbar-nav ml-auto">
+                <li class="nav-item">
+                    <a class="nav-link" href="#">HOME</a>
+                </li>
+                <li class="nav-item">
+                    <a class="nav-link" href="#about">ABOUT</a>
+                </li>
+                <li class="nav-item">
+                    <a class="nav-link" href="Contact.html">CONTACT US </a>
+                </li>
+                <li>
+                    <a class="sign" onclick="document.getElementById('id0').style.display='block'">
+                        Create An Account
+                    </a>
+                </li>
+                <li>
+                    <a class="sign" onclick="document.getElementById('id1').style.display='block'">
+                        Login
+                    </a>
+                </li>
+            </ul>
+        </div>
+    </nav>
+    <header>
+        <h1>Dental Clinic</h1>
+        <img src="./images/tooth-hygiene-healthcare-with-toothbrush-equipment_24877-55028_preview_rev_1.png"
+            class="tooth wow animated__animated animate__wobble" />
+
+        <button class="read" onclick="show()"></button>
+
+        <p id="rent">
+            We are committed every day in finding the best possible deal for improve
+            your tooth . Without Any Hidden Charges. We offer free booking
+            modifications and Rates as low as possible with an average saving per
+            booking of 35%!
+        </p>
+    </header>
+
+    <div class="types">
+        <h1>CLINIC SERVICES</h1>
+
+        <p>
+            We have great offers for daily, weekly and long term rentals. Find the
+            cheapest prices online
+        </p>
+        <div class="work">
+            <div>
+                <img src="./images/pp.webp" />
+                <h3>Cosmetic</h3>
+            </div>
+            <div>
+                <img src="./images/oooo.webp" />
+                <h3>surgery</h3>
+            </div>
+            <div>
+                <img src="./images/uu.webp" />
+                <h3>fillings</h3>
+            </div>
+        </div>
+    </div>
+    <div class="Choose">
+        <img src="./images/iii_preview_rev_1.png" id="image2" class="wow animated__animated animate__backInLeft" />
+        <div class="row">
+            <div class="column">
+                <h4>CHOOSE CLINIC SERVICE</h4>
+
+                <select class="big">
+                    <option value="0">Choose the services your need</option>
+                    <option value="1">Cosmetic dentistry</option>
+                    <option value="2">surgery dentistry</option>
+                    <option value="3">dentistry fillings</option>
+                </select>
+
+                <select class="big">
+                    <option value="0">Choose your doctor</option>
+                    <option value="1">Remah Tarek</option>
+                    <option value="2">Nada Hamdy</option>
+                    <option value="3">Nehad Ashraf</option>
+                    <option value="4">Menna Zakaria</option>
+                    <option value="5">Ahmed samy</option>
+                    <option value="6">Ahmed Refaey</option>
+                </select>
+
+                <select class="big">
+                    <option value="0">Choose your age</option>
+                    <option value="1">baby</option>
+                    <option value="2">child</option>
+                    <option value="3">Adult</option>
+                </select>
+
+                <select class="big">
+                    <option value="0">average of Price</option>
+                    <option value="1">200-300</option>
+                    <option value="2">300-600</option>
+                    <option value="3">600-700</option>
+                </select>
+
+                <a href="Book.html"> <button class="find">BOOK NOW</button></a>
+            </div>
+        </div>
+    </div>
+    <div class="why" id="about">
+        <h2>WHY CHOOSE US</h2>
+        <p class="p1">YOU CAN CHOOSE US FOR</p>
+        <span class="num"> 01</span>
+        <p class="p1">
+            We are committed every day in finding the best possible deal for improve
+            your tooth . Without Any Hidden Charges. We offer free booking
+            modifications and Rates as low as possible with an average saving per
+            booking of 35%!
+        </p>
+        <span class="num"> 02</span>
+        <p class="p1">
+            Top doctors - Top material- Top Service. We work with top-medical
+            devices international and top companies in 45,000 country. WE constantly
+            assess our Docturs and materials based on patients
+        </p>
+        <span class="num"> 03</span>
+        <p class="p1">
+            51% Of Our patiants have saved more than 53% on their moneys with us.
+        </p>
+    </div>
+
+    <!--slider-->
+    <div id="carouselExampleCaptions" class="carousel slide" data-ride="carousel">
+        <h1>Our Doctors</h1>
+        <ol class="carousel-indicators">
+            <li data-target="#carouselExampleCaptions" data-slide-to="0" class="active"></li>
+            <li data-target="#carouselExampleCaptions" data-slide-to="1"></li>
+            <li data-target="#carouselExampleCaptions" data-slide-to="2"></li>
+        </ol>
+        <div class="carousel-inner">
+            <div class="carousel-item active">
+                <img src="./images/nada.jpg" class="d-block w-100" alt="..." />
+                <div class="carousel-caption d-none d-md-block">
+                    <h5>Dr/Nada Hamdy</h5>
+                    <p>
+                        She is cooperative, kind, and tired of her work, and one of the
+                        best doctors.
+                    </p>
+                </div>
+            </div>
+
+            <div class="carousel-item">
+                <img src="./images/nehad.jpg" class="d-block w-100" alt="..." />
+                <div class="carousel-caption d-none d-md-block">
+                    <h5>Dr/Nehad Ashraf</h5>
+                    <p>
+                        She is cooperative, kind, and tired of her work, and one of the
+                        best doctors.
+                    </p>
+                </div>
+            </div>
+
+            <div class="carousel-item">
+                <img src="./images/remah.jpg" class="d-block w-100" alt="..." />
+                <div class="carousel-caption d-none d-md-block">
+                    <h5>Dr/Remah Tarek</h5>
+                    <p>
+                        She is cooperative, kind, and tired of her work, and one of the
+                        best doctors.
+                    </p>
+                </div>
+            </div>
+
+            <div class="carousel-item">
+                <img src="./images/menna.jpg" class="d-block w-100" alt="..." />
+                <div class="carousel-caption d-none d-md-block">
+                    <h5>Dr/Menna Zakaria</h5>
+                    <p>
+                        She is cooperative, kind, and tired of her work, and one of the
+                        best doctors.
+                    </p>
+                </div>
+            </div>
+
+            <div class="carousel-item">
+                <img src="./images/ahmed.jpg" class="d-block w-100" alt="..." />
+                <div class="carousel-caption d-none d-md-block">
+                    <h5>Dr/Ahmed Refaey</h5>
+                    <p>
+                        he is cooperative, kind, and tired of her work, and one of the
+                        best doctors.
+                    </p>
+                </div>
+            </div>
+
+            <div class="carousel-item">
+                <img src="./images/samy.jpg" class="d-block w-100" alt="..." />
+                <div class="carousel-caption d-none d-md-block">
+                    <h5>Dr/Ahmed Samy</h5>
+                    <p>
+                        he is cooperative, kind, and tired of her work, and one of the
+                        best doctors
+                    </p>
+                </div>
+            </div>
+        </div>
+        <button class="carousel-control-prev" type="button" data-target="#carouselExampleCaptions" data-slide="prev">
+            <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+            <span class="sr-only">Previous</span>
+        </button>
+        <button class="carousel-control-next" type="button" data-target="#carouselExampleCaptions" data-slide="next">
+            <span class="carousel-control-next-icon" aria-hidden="true"></span>
+            <span class="sr-only">Next</span>
+        </button>
+    </div> 
+
+        <footer>
+            <a href="https://www.facebook.com/"><img src="./images/facebook.png" /></a>
+            <a href="https://www.twitter.com/"><img src="./images/twitter.png" /></a>
+            <a href="https://www.instagram.com/"><img src="./images/instagram.png" /></a>
+            <a href="https://www.youtube.com/"><img src="./images/youtube.png" /></a>
+    
+            <p>designed by team number 1 &#128538;</p>
+        </footer> 
+
+    <!-- Start Sign in -->
+    <div id="done" class="card">
+        <div class="card-body">
+            <i class="fa-sharp fa-solid fa-badge-check" style="color: #00fa9a;"></i> Now you Have an Account
+        </div>
+    </div>
+
+    <div class=" contain " id="id0">
+                <form id="form" method="GET" action="/">
+                    <span onclick="document.getElementById('id0').style.display='none'" style="
+                    cursor: pointer;
+                    margin-left: 90%;
+                    font-size: 50px;
+                    font-weight: bold;
+                    ">&times;</span> 
+                    <h1>Sign Up</h1>
+                    <br />
+                    <div class="mb-3 input-control">
+                      <input id="userName" name="userName" class="input-field " type="text" placeholder=" enter your Name"/>
+                      <div class="error"></div>
+                    </div>
+                    <div class="mb-3 input-control">
+                      <input id="email" name="email" class="input-field " type="text" placeholder=" enter your Email" />
+                      <div class="error"></div>
+                    </div>
+                    <div class="mb-3 input-control">
+                        <input id="password" name="password" class="input-field " type="password" placeholder="**********" />
+                        <div class="error"></div>
+                    </div>
+                    <div class="mb-3 input-control">
+                        <input id="password2" name="password2" class="input-field " type="password" placeholder="confirm password" />
+                        <div class="error"></div>
+                    </div>
+    
+                    <input type="checkbox" /><span id="remember">remember me</span><br /><br />
+        
+                    <button type="submit" id="submit" class=" btn btn-primary">Sign Up</button>
+    
+                </form>
+            </div>
+
+    <div class=" contain " id="id1">
+                <form id="form" method="GET" action="/">
+                    <span onclick="document.getElementById('id1').style.display='none'" style="
+                    cursor: pointer;
+                    margin-left: 90%;
+                    font-size: 50px;
+                    font-weight: bold;
+                    ">&times;</span> 
+                    <h1>Log In</h1>
+                    <br />
+                    <div class="mb-3 input-control">
+                      <input id="email" name="email" class="input-field " type="text" placeholder=" enter your Email" />
+                      <div class="error"></div>
+                    </div>
+                    <div class="mb-3 input-control">
+                        <input id="password" name="password" class="input-field " type="password" placeholder="**********" />
+                        <div class="error"></div>
+                    </div>
+    
+                    <input type="checkbox" /><span id="remember">remember me</span><br /><br />
+        
+                    <button type="submit" id="submit" class=" btn btn-primary">Login</button>
+                    <p class="center">-OR-</p>
+                    <p class="center">sign in with</p>
+        
+                    <a href="https://www.facebook.com/"><img src="./images/f.png" class="link1" /></a>
+                    <a href="https://mail.google.com/mail/u/0/#inbox"><img src="./images/co.png" class="link1" /></a>
+        
+                    <p class="account">Don't have an account?<a> sign up</a></p>
+    
+                </form>
+            </div>
+
+    
+    
+
+
+    <!-- End Sign in -->
+
+    <!--Jquery js-->
+    <script src="./assets/jquery/jquery-3.6.1.min.js"></script>
+    <!-- wow js-->
+    <script src="./assets/wow/wow.min.js"></script>
+    <!--owl js-->
+    <script src="./assets/owl/owl.carousel.min.js"></script>
+    <!--fitText js-->
+    <script src="./assets/fittext/jquery.fittext.js"></script>
+    <!--slick js-->
+    <script src="./assets/slick/slick.jquery.json"></script>
+    <!--smooth scroll js-->
+    <script src="./assets/smooth/smooth-scroll.polyfills.min.js"></script>
+    <!--my file js-->
+    <script src="./assets/js/main.js"></script>
+    <!--bootstrap-->
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@4.6.2/dist/js/bootstrap.bundle.min.js"
+        integrity="sha384-Fy6S3B9q64WdZWQUiU+q4/2Lc9npb8tCaSX9FK7E8HnRr0Jz8D6OP9dO5Vg3Q9ct"
+        crossorigin="anonymous"></script>
+    
+
+</body>
+
+</html>
